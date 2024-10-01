@@ -113,17 +113,28 @@
 
     //Arithmetic operation in PHP
 
-    $num1 = 10;
-    $num2 = 20;
+    // $num1 = 10;
+    // $num2 = 20;
 
-    $sum = $num1 + $num2;
-    $sub = $num1 - $num2;
-    $mul = $num1 * $num2;
-    $div = $num1 / $num2;
-    $mod = $num1 % $num2;
-    $exp = $num1 ** $num2;
+    // $sum = $num1 + $num2;
+    // $sub = $num1 - $num2;
+    // $mul = $num1 * $num2;
+    // $div = $num1 / $num2;
+    // $mod = $num1 % $num2;
+    // $exp = $num1 ** $num2;
 
-    echo 'Sum: '. $sum .'<br>' . 'Sub: '. $sub .'<br>' . 'Mul: '. $mul .'<br>' . 'Div: '. $div .'<br>' . 'Mod: '. $mod .'<br>' . 'Exp: '. $exp .'<br>' 
+    // echo 'Sum: '. $sum .'<br>' . 'Sub: '. $sub .'<br>' . 'Mul: '. $mul .'<br>' . 'Div: '. $div .'<br>' . 'Mod: '. $mod .'<br>' . 'Exp: '. $exp .'<br>' 
+
+    // Assignment operator in PHP
+
+    $x = 10;
+    $y = 20;
+
+    $z = $x + $y;
+
+    $x += $y;
+
+    var_dump($x === $y);
 
     ?>
 </body>
