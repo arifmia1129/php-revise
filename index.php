@@ -18,12 +18,22 @@
     2. I love Burger
     */
 
+    // Variables
     $num1 = 10;
     $num2 = 20;
 
     $sum = $num1 + $num2;
 
-    echo 'The sum of '. $num1 . ' and ' . $num2 . ' is ' . $sum;
+    echo 'The sum of '. $num1 . ' and ' . $num2 . ' is ' . $sum . '<br>';
+
+
+    //Echo and Print
+    echo $num1 . '<br>';
+    
+    $newNum = print($num1);
+
+    echo $newNum;
+
     ?>
 </body>
 </html>
