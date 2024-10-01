@@ -46,6 +46,27 @@
 
     var_dump($gadgets);
 
+    // Object with Class
+    class Phone {
+        var $model;
+
+        function phoneModel($number) {
+            global $model;
+
+            $model = $number;
+
+            echo '<br>'.'The phone model is: '. $model;
+        }
+    }
+
+    $apple = new Phone();
+
+    $apple -> phoneModel('iPhone 11');
+
+    $samsung = new Phone();
+
+    $samsung->phoneModel('Samsung Galaxy');
+
     ?>
 </body>
 </html>
