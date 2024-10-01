@@ -183,11 +183,17 @@
 
     // Do while loop in PHP
 
-    do {
-        echo 'Calling the serial no. '. $serial . '<br>';
+    // do {
+    //     echo 'Calling the serial no. '. $serial . '<br>';
 
-        $serial++;
-    } while ($serial <= 10);
+    //     $serial++;
+    // } while ($serial <= 10);
+
+    // For loop in PHP
+
+    for($i = 1; $i <= 10; $i++) {
+        echo 'Index number: '.$i . '<br>';
+    }
 
     ?>
 </body>
