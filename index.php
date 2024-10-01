@@ -208,9 +208,18 @@
 
     // echo is_adult(10) ? 'Adult' : 'Minor';
 
-    date_default_timezone_set('Asia/Dhaka');
+    // date_default_timezone_set('Asia/Dhaka');
 
-    echo(date('H:i:s'));
+    // echo(date('H:i:s'));
+
+
+    // Foreach in PHP
+
+    $fruits = ['Apple', 'Mango', 'Banana'];
+
+    foreach($fruits as $fruit) {
+        echo $fruit . '<br>';
+    }
 
     ?>
 </body>
