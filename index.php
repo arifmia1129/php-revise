@@ -175,11 +175,19 @@
 
     $serial = 1;
     
-    while($serial <= 10) {
-        echo 'Calling the serial no. ' . $serial . '<br>';
+    // while($serial <= 10) {
+    //     echo 'Calling the serial no. ' . $serial . '<br>';
+
+    //     $serial++;
+    // }
+
+    // Do while loop in PHP
+
+    do {
+        echo 'Calling the serial no. '. $serial . '<br>';
 
         $serial++;
-    }
+    } while ($serial <= 10);
 
     ?>
 </body>
