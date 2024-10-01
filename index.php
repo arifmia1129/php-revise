@@ -11,12 +11,19 @@
     <?php 
     // I am revising php programming again
     $food = "Pizza";
-    echo "I love ".$food;
+    echo "I love ".$food . '<br>';
 
     /* 
     1. I love Pizza
     2. I love Burger
     */
+
+    $num1 = 10;
+    $num2 = 20;
+
+    $sum = $num1 + $num2;
+
+    echo 'The sum of '. $num1 . ' and ' . $num2 . ' is ' . $sum;
     ?>
 </body>
 </html>
