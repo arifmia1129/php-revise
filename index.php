@@ -217,15 +217,25 @@
 
     $fruits = ['Apple', 'Mango', 'Banana'];
 
-    foreach($fruits as $fruit) {
-        echo $fruit . '<br>';
-    }
+    // foreach($fruits as $fruit) {
+    //     echo $fruit . '<br>';
+    // }
 
-    $person = ['name'=>'Arif', 'age'=>'18'];
+    // $person = ['name'=>'Arif', 'age'=>'18'];
 
-    foreach($person as $key => $value) {
-        echo $key . ': '. $value . '<br>';
-    }
+    // foreach($person as $key => $value) {
+    //     echo $key . ': '. $value . '<br>';
+    // }
+
+    // Array map in PHP
+
+    $numbers = [1, 2, 3, 4, 5];
+
+    $squared = array_map(function ($num){
+        return $num * $num;
+    }, $numbers);
+
+    var_dump ($squared);
 
     ?>
 </body>
