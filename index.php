@@ -158,17 +158,27 @@
 
     // switch statement in PHP
 
-    $gender = 'male';
+    // $gender = 'male';
 
-    switch($gender) {
-        case 'male':
-            echo 'Hello Mr.';
-            break;
-        case 'female':
-            echo 'Hello Mrs.';
-            break;
-        default:
-            echo 'Hello';
+    // switch($gender) {
+    //     case 'male':
+    //         echo 'Hello Mr.';
+    //         break;
+    //     case 'female':
+    //         echo 'Hello Mrs.';
+    //         break;
+    //     default:
+    //         echo 'Hello';
+    // }
+
+    // While loop in PHP
+
+    $serial = 1;
+    
+    while($serial <= 10) {
+        echo 'Calling the serial no. ' . $serial . '<br>';
+
+        $serial++;
     }
 
     ?>
