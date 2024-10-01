@@ -34,6 +34,18 @@
 
     echo $newNum;
 
+    '<br>';
+
+    // Data types
+
+    $name = 'Ariba';
+    $age = 20;
+    $isMarried = false;
+    $height = 5.5;
+    $gadgets = array('laptop', 'mobile', 'tv');
+
+    var_dump($gadgets);
+
     ?>
 </body>
 </html>
