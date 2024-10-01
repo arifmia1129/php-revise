@@ -82,19 +82,34 @@
 
     //Number operation in PHP
 
-    echo (pi());
-    echo '<br>';
-    echo (min(50, 12, 1, 2, 40, 5));
-    echo '<br>';
-    echo (max(10, 159, 170, 1));
-    echo '<br>';
-    echo (abs(-16));
-    echo '<br>';
-    echo (sqrt(64));
-    echo ('<br>');
-    echo (round(4.4));
-    echo ('<br>');
-    echo (rand(1, 10));
+    // echo (pi());
+    // echo '<br>';
+    // echo (min(50, 12, 1, 2, 40, 5));
+    // echo '<br>';
+    // echo (max(10, 159, 170, 1));
+    // echo '<br>';
+    // echo (abs(-16));
+    // echo '<br>';
+    // echo (sqrt(64));
+    // echo ('<br>');
+    // echo (round(4.4));
+    // echo ('<br>');
+    // echo (rand(1, 10));
+
+
+    // Variable and Constant in PHP
+    $x = 10;
+
+    define('y', 20);
+
+    echo y;
+
+    function check() {
+        $x = 10;
+        echo $x;
+    }
+
+    check();
 
     ?>
 </body>
