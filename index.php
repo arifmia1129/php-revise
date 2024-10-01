@@ -127,14 +127,33 @@
 
     // Assignment operator in PHP
 
-    $x = 10;
-    $y = 20;
+    // $x = 10;
+    // $y = 20;
 
-    $z = $x + $y;
+    // $z = $x + $y;
 
-    $x += $y;
+    // $x += $y;
 
-    var_dump($x === $y);
+    // var_dump($x === $y);
+
+
+    // if else statement in PHP
+
+    $marks = 32;
+
+    if($marks >= 80) {
+        echo 'Passed with A+';
+    }elseif($marks >= 70) {
+        echo 'Passed with A';
+    }elseif($marks >= 60){
+        echo 'Passed with A-';
+    }elseif($marks >= 50) {
+        echo 'Passed with B';
+    }elseif($marks >= 33) {
+        echo 'Passed with C';
+    }else {
+        echo 'Failed with F';
+    }
 
     ?>
 </body>
