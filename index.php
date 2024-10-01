@@ -191,9 +191,26 @@
 
     // For loop in PHP
 
-    for($i = 1; $i <= 10; $i++) {
-        echo 'Index number: '.$i . '<br>';
+    // for($i = 1; $i <= 10; $i++) {
+    //     echo 'Index number: '.$i . '<br>';
+    // }
+
+
+    // Function is PHP
+
+    function is_adult($age) {
+        if($age >= 18) {
+            return true;
+        }else {
+            return false;
+        }
     }
+
+    // echo is_adult(10) ? 'Adult' : 'Minor';
+
+    date_default_timezone_set('Asia/Dhaka');
+
+    echo(date('H:i:s'));
 
     ?>
 </body>
