@@ -221,6 +221,12 @@
         echo $fruit . '<br>';
     }
 
+    $person = ['name'=>'Arif', 'age'=>'18'];
+
+    foreach($person as $key => $value) {
+        echo $key . ': '. $value . '<br>';
+    }
+
     ?>
 </body>
 </html>
