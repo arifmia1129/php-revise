@@ -139,20 +139,36 @@
 
     // if else statement in PHP
 
-    $marks = 32;
+    // $marks = 32;
 
-    if($marks >= 80) {
-        echo 'Passed with A+';
-    }elseif($marks >= 70) {
-        echo 'Passed with A';
-    }elseif($marks >= 60){
-        echo 'Passed with A-';
-    }elseif($marks >= 50) {
-        echo 'Passed with B';
-    }elseif($marks >= 33) {
-        echo 'Passed with C';
-    }else {
-        echo 'Failed with F';
+    // if($marks >= 80) {
+    //     echo 'Passed with A+';
+    // }elseif($marks >= 70) {
+    //     echo 'Passed with A';
+    // }elseif($marks >= 60){
+    //     echo 'Passed with A-';
+    // }elseif($marks >= 50) {
+    //     echo 'Passed with B';
+    // }elseif($marks >= 33) {
+    //     echo 'Passed with C';
+    // }else {
+    //     echo 'Failed with F';
+    // }
+
+
+    // switch statement in PHP
+
+    $gender = 'male';
+
+    switch($gender) {
+        case 'male':
+            echo 'Hello Mr.';
+            break;
+        case 'female':
+            echo 'Hello Mrs.';
+            break;
+        default:
+            echo 'Hello';
     }
 
     ?>
