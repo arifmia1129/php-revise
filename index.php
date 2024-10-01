@@ -98,18 +98,32 @@
 
 
     // Variable and Constant in PHP
-    $x = 10;
+    // $x = 10;
 
-    define('y', 20);
+    // define('y', 20);
 
-    echo y;
+    // echo y;
 
-    function check() {
-        $x = 10;
-        echo $x;
-    }
+    // function check() {
+    //     $x = 10;
+    //     echo $x;
+    // }
 
-    check();
+    // check();
+
+    //Arithmetic operation in PHP
+
+    $num1 = 10;
+    $num2 = 20;
+
+    $sum = $num1 + $num2;
+    $sub = $num1 - $num2;
+    $mul = $num1 * $num2;
+    $div = $num1 / $num2;
+    $mod = $num1 % $num2;
+    $exp = $num1 ** $num2;
+
+    echo 'Sum: '. $sum .'<br>' . 'Sub: '. $sub .'<br>' . 'Mul: '. $mul .'<br>' . 'Div: '. $div .'<br>' . 'Mod: '. $mod .'<br>' . 'Exp: '. $exp .'<br>' 
 
     ?>
 </body>
